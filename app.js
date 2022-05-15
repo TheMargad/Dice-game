@@ -14,7 +14,7 @@ var DiceDom =  document.querySelector(".dice");
 document.getElementById('score-0').textContent = '0';
 document.getElementById('score-1').textContent = '0';
 document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
+document.getElementById('current-1').textContent = '0'; 
 
 DiceDom.style.display = "none";
 
@@ -61,3 +61,27 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
 );
 
 DiceDom.style.display = "none";
+
+// shine togloom ehluuleh tovchnii evet listener hiih
+document.querySelector(".btn-new").addEventListener("click",function()
+{
+    initGame();
+});
+
+function initGame(){
+    var activePlayer = 1;
+// toglogdchiin tsugluulsan onoo hadgalah huvisagch
+
+var scors = [0 , 0];
+//toglogchiin eeljind tsugluulj baigaa onoog hadgalah huvisag
+var roundScore = 0;
+// shoonii ali talaar buusang iltgeh huvisagch
+
+/* <div class="player-score" id="score-0">43</div> */
+var DiceDom =  document.querySelector(".dice");
+// programm started readyy
+document.getElementById('score-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('current-1').textContent = '0'; 
+}
