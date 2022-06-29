@@ -4,7 +4,10 @@ var isNewGame;
 
 // Аль тоглогч шоо шидэх вэ гэдгийг энд хадгална.
 var activePlayer;
+console.log(googleapis);
+document.querySelector(".google").addEventListener('click', )
 
+}
 // Хоёр тоглогчийн цуглуулсан оноонууд
 var scores;
 
@@ -91,7 +94,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
       scores[activePlayer];
 
     // Уг тоглогч хожсон эсэхийг (оноо нь 100-с их эсэх) шалгах
-    if (scores[activePlayer] >= 50) {
+    if (scores[activePlayer] >= 100) {
       // Тоглоомыг дууссан төлөвт оруулна
       isNewGame = false;
 
